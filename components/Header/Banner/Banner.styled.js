@@ -33,7 +33,6 @@ export const BannerSlider = styled.div`
   justify-content: center;
 `;
 export const BannerImage = styled.div`
-  transition: 0.3s;
 `;
 export const BannerContent = styled.div`
   position: relative;
@@ -42,7 +41,7 @@ export const BannerContent = styled.div`
   flex-direction: column;
   align-items: flex-start;
   max-width: 1950px;
-  width: calc(100% - 100px);
+  width: calc(100% - 500px);
   color: #fff;
   h1 {
     font-size: clamp(3rem, 2.5vw, 8rem);

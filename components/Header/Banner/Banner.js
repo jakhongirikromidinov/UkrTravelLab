@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Image from "next/image";
+import { Container } from "../../common/CommonUsed.styled";
 
 import StyledBanner, {
   Content,

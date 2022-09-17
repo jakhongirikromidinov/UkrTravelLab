@@ -20,7 +20,8 @@ export default function Home() {
         color: {
           accent: "#448e73",
           hovered: "#474343",
-          titleColor: "#272525"
+          titleColor: "#272525",
+          hoveredButton: "#49bd93"
         }
       }}
     >

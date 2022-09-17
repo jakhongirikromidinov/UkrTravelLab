@@ -12,6 +12,12 @@ export const Button = styled.button`
   font-size: 1.8rem;
   padding: 1em 1.5em;
   border-radius: 4px;
+  &:hover {
+    background-color: ${(props) => (props.primary ? 'white' : '#49bd93')};
+    color: ${(props) => (props.primary ? 'black' : '#ffff')};
+    border: ${(props) => (props.primary ? '1px solid black' : 'none')};
+    transition: 0.7s all;
+  }
 `;
 export const SliderItem = styled.div`
   background: rgba(0, 0, 0, 0.5);
